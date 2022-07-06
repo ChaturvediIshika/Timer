@@ -16,5 +16,10 @@ div{
     line-height: 1;
 }
 input{
+    text-align: center;
     opacity: 0.5;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 30px;
 }

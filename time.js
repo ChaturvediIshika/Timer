@@ -38,7 +38,7 @@ function showTime() {
     }
     else if(hour>=4 && hour<8 && am_pm=="PM")
     {
-        document.getElementById('myImageID').src="./wp3113726.webp";
+        document.getElementById('myImageID').src="./beach-sunset-seascape-evening-dusk-ocean-3840x2400-281.jpg";
         document.getElementById("message").innerText="Good Evening";
     }
     else if(hour>=8 || hour<4)
