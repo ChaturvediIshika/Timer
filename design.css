@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    height: 717px;
+}
+img
+{
+    width: 100%;
+    height: 717px;
+}
+div{
+    padding: 30px;
+    position: relative;
+    bottom: 650px;
+    line-height: 1;
+}
+input{
+    opacity: 0.5;
+}

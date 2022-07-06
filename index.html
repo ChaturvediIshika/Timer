@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="design.css">
+    
+</head>
+<body>
+    <img id="myImageID" src="" alt="">
+    <div id="myDiv">
+    <h1><span id="quote"></span></h1>
+    <script src="./quote.js"></script>
+    <h1><span id="clock"></span></h1>
+    <h1><span id="message"></span></h1>
+    <input type="text" id="name" placeholder="Enter your name" oninput="set()">
+    <script>
+        var n=document.getElementById("name");
+        if(localStorage.getItem("name")==null)
+        {
+           n.value="Enter Name"; 
+        }
+        else n.value=localStorage.getItem("name");
+        function set()
+        {
+            localStorage.setItem("name",n.value);
+        }
+    </script>
+    <script src="./Name.js"></script>
+    <h1><span id="date"></span></h1>
+    <script src="./time.js"></script>
+    </div>
+</body>
+</html>
